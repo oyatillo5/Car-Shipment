@@ -1,0 +1,53 @@
+.header {
+  background-color: #0000004d;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  backdrop-filter: blur(20px);
+}
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 153px;
+  padding: 21px 0 20px 0;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.site__cal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav__item-text {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #ffffff;
+  transition: all 0.3s ease-out;
+  &:hover {
+    color: #ff7d44;
+    cursor: pointer;
+  }
+}
+.site__cal-number {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #ffffff;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    color: #ff7d44;
+    cursor: pointer;
+  }
+}

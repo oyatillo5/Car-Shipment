@@ -1,0 +1,135 @@
+.hero__section {
+  background-image: url("../../img/hero-bg-img.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 180px;
+  padding-bottom: 93px;
+  background-position: bottom center;
+  background-attachment: fixed;
+}
+.form {
+  background-color: #3a3a3a80;
+  width: 449px;
+  padding: 23px 25px;
+  border-radius: 10px;
+}
+#inpDate {
+  background-image: url(../../img/form-calendar.png);
+}
+.inp {
+  padding: 18px 40px;
+  border: none;
+  border-radius: 12px;
+  margin: 8px 0 15px 0;
+  width: 100%;
+  background-image: url("../../img/form-location_line.svg");
+  background-repeat: no-repeat;
+  background-position: left 12px center;
+  &::placeholder {
+    color: #00000061;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+  }
+}
+.form__title {
+  font-family: "Inter";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.31px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.form-text {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  color: #ffffff;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ffffff;
+}
+.form__label_text {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.15px;
+  color: #ffffff;
+}
+.radio {
+  .form__label_text {
+    margin-bottom: 8px;
+  }
+}
+.radio__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ffffff;
+}
+.radio__btn {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 192px;
+  input {
+    width: 26px;
+    height: 26px;
+  }
+}
+.btn-form {
+  width: 100%;
+  padding: 17px 0;
+  border-radius: 12px;
+  border: none;
+  margin-top: 20px;
+  background-color: #ff7d44;
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20.57px;
+  &:hover {
+    background-color: #f3936b;
+    cursor: pointer;
+  }
+  &:active {
+    background-color: #ff4d00;
+  }
+}
+.hero__wrapper {
+  display: flex;
+  gap: 85px;
+}
+.hero__transportation {
+  margin-top: 52px;
+}
+.hero__transportation_text {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.hero__transportation-title {
+  font-family: "Inter";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.77px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.hero__transportation-discreption {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  color: #ffffff;
+}

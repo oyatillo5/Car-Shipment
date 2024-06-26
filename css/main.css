@@ -1,0 +1,345 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter/static/Inter-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.3019607843);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 153px;
+  padding: 21px 0 20px 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.site__cal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav__item-text {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #ffffff;
+  transition: all 0.3s ease-out;
+}
+.nav__item-text:hover {
+  color: #ff7d44;
+  cursor: pointer;
+}
+
+.site__cal-number {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #ffffff;
+  transition: all 0.3s ease-out;
+}
+.site__cal-number:hover {
+  color: #ff7d44;
+  cursor: pointer;
+}
+
+.hero__section {
+  background-image: url("../../img/hero-bg-img.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 180px;
+  padding-bottom: 93px;
+  background-position: bottom center;
+  background-attachment: fixed;
+}
+
+.form {
+  background-color: rgba(58, 58, 58, 0.5019607843);
+  width: 449px;
+  padding: 23px 25px;
+  border-radius: 10px;
+}
+
+#inpDate {
+  background-image: url(../../img/form-calendar.png);
+}
+
+.inp {
+  padding: 18px 40px;
+  border: none;
+  border-radius: 12px;
+  margin: 8px 0 15px 0;
+  width: 100%;
+  background-image: url("../../img/form-location_line.svg");
+  background-repeat: no-repeat;
+  background-position: left 12px center;
+}
+.inp::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.3803921569);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+}
+.inp::placeholder {
+  color: rgba(0, 0, 0, 0.3803921569);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+}
+
+.form__title {
+  font-family: "Inter";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.31px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.form-text {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  color: #ffffff;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.form__label_text {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.15px;
+  color: #ffffff;
+}
+
+.radio .form__label_text {
+  margin-bottom: 8px;
+}
+
+.radio__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.radio__btn {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 192px;
+}
+.radio__btn input {
+  width: 26px;
+  height: 26px;
+}
+
+.btn-form {
+  width: 100%;
+  padding: 17px 0;
+  border-radius: 12px;
+  border: none;
+  margin-top: 20px;
+  background-color: #ff7d44;
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20.57px;
+}
+.btn-form:hover {
+  background-color: #f3936b;
+  cursor: pointer;
+}
+.btn-form:active {
+  background-color: #ff4d00;
+}
+
+.hero__wrapper {
+  display: flex;
+  gap: 85px;
+}
+
+.hero__transportation {
+  margin-top: 52px;
+}
+
+.hero__transportation_text {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.hero__transportation-title {
+  font-family: "Inter";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.77px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.hero__transportation-discreption {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  color: #ffffff;
+}
+
+.service__section {
+  padding: 118px 0;
+}
+
+.service__card-box {
+  position: relative;
+  transition: all 0.3s;
+  cursor: pointer;
+  width: 340px;
+  height: 465px;
+  overflow: hidden;
+  box-shadow: 0px 0px 4px 0px #000;
+}
+.service__card-box:hover > .service__card-img {
+  height: 238px;
+}
+.service__card-box:hover > .service__hidden-content {
+  bottom: 0;
+}
+
+.service__card-img {
+  height: 100%;
+  width: 354px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s;
+}
+
+.service__subcontent {
+  position: absolute;
+  bottom: 0;
+  padding: 24px 20px;
+}
+.service__subcontent:hover {
+  height: auto;
+}
+
+.service__hidden-content {
+  position: absolute;
+  height: 50%;
+  padding: 20px;
+  bottom: -100%;
+  transition: all 0.3s;
+}
+
+.service__card_title {
+  font-family: "Inter";
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  color: rgba(255, 255, 255, 0.8705882353);
+}
+
+.service__card-link {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.15px;
+  color: rgba(255, 255, 255, 0.8705882353);
+}
+
+.service__hidden_title {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  margin-bottom: 10px;
+}
+
+.service__hidden-text {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.6784313725);
+  margin-bottom: 15px;
+}
+
+.service__hidden-link {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.15px;
+  color: #ff7d44;
+}
+
+.service__title {
+  font-family: "Inter";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45.99px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.service__title-text {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 96px;
+  color: rgba(0, 0, 0, 0.6784313725);
+}
+
+.servive__card {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=main.css.map */
